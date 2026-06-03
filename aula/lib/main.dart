@@ -1,6 +1,8 @@
+import 'package:aula/pages/tela_login.dart';
 import 'package:device_preview/device_preview.dart';
 import 'package:flutter/material.dart';
 import './pages/tela_revisao.dart'; // tem que importar para o TelaRevisao funcionar
+
 
 void main() { //onde o app começa, o código principal de tudo
   runApp(
@@ -26,7 +28,7 @@ class MyApp extends StatelessWidget { //Estático
         ),
       ),
 
-      home: const TelaRevisao(), //chama a primeira tela (tela principal)
+      home: const TelaLogin(), //chama a primeira tela (tela principal)
     );
   }
 }
